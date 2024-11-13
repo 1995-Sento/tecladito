@@ -36,9 +36,9 @@
             //                    | GUI |     | SPC |   | ENT |     | ALT |
 
             bindings = <
-&kp TAB           &kp ASTERISK  &kp KP_N7        &kp KP_N8        &kp KP_N9        &kp LOCKING_NUM    &kp F1                &kp C_VOL_DN    &kp UP        &kp C_VOLUME_UP  &kp PRINTSCREEN        &kp DELETE
-&kp LEFT_CONTROL  &kp MINUS     &kp KP_NUMBER_4  &kp KP_NUMBER_5  &kp KP_NUMBER_6  &kp SLASH          &kp C_BRIGHTNESS_INC  &kp LEFT        &kp DOWN      &kp RIGHT        &kp HOME               &kp PAGE_UP
-&kp LSHFT         &kp PLUS      &kp KP_N1        &kp KP_NUMBER_2  &kp KP_NUMBER_3  &kp KP_N0          &kp C_BRIGHTNESS_DEC  &kp K_PREVIOUS  &kp K_MUTE    &kp K_NEXT       &kp C_AL_FILE_BROWSER  &kp PAGE_DOWN
+&kp TAB           &kp ASTERISK  &kp N7        &kp N8        &kp N9        &kp N0   &kp F1                &kp C_VOL_DN    &kp UP        &kp C_VOLUME_UP  &kp PRINTSCREEN        &kp DELETE
+&kp LEFT_CONTROL  &kp MINUS     &kp N4  &kp N5  &kp N6  &kp SLASH          &kp C_BRIGHTNESS_INC  &kp LEFT        &kp DOWN      &kp RIGHT        &kp HOME               &kp PAGE_UP
+&kp LSHFT         &kp PLUS      &kp N1        &kp N2  &kp N3  &kp N0          &kp C_BRIGHTNESS_DEC  &kp K_PREVIOUS  &kp K_MUTE    &kp K_NEXT       &kp C_AL_FILE_BROWSER  &kp PAGE_DOWN
                                                  &kp LGUI         &trans           &kp SPACE          &kp RET               &mo 3           &kp LEFT_ALT
             >;
         };
@@ -68,3 +68,4 @@
         };
     };
 };
+1
